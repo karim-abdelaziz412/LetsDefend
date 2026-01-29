@@ -19,7 +19,7 @@ The investigation began with an automated alert in the SIEM monitoring tab.
 - **Source Address:** `hahaha@ihackedyourcomputer.com`
 - **Destination Address:** `mark@letsdefend.io`
 
-> ![alert](screenshots/Screenshot1)
+> ![alert](screenshots/Screenshot1.png)
 
 ---
 
@@ -29,7 +29,7 @@ Following the detection, I performed a deep dive into the email security logs to
 ### Email Security Search
 I navigated to the **Email Security** tab and performed a search using the SMTP address `27.128.173.81`. This search successfully located the email in question.
 
-> ![email](screenshots/Screenshot2)
+> ![email](screenshots/Screenshot2.png)
 
 ### Content Inspection
 I reviewed the raw content of the email to determine the sender's intent:
